@@ -9,6 +9,7 @@ This repository is meant to serve the community of scholars working on the histo
 
 ## work that has been done on the BHB data to DiJeSt Books
 ### ontology
+Many of the MARC021 fields were mapped to common ontologies, in order to produce a linked open data knowledge graph. To find out how to access and query it, see here: http://dijest.net/elinda/ .   
 
 ### date cleaning and normalization
 105642 (of 107,977 records) dates (field 260C) were cleaned, normalized and linked in order to enable machine readability.  The information regarding the certainty, accuracy and complexity of dates, implicit in  formulae such as "בערך", "המאה ה-", "לפני", "צנז׳" is yet to be integrated in the DiJeSt file, as well as field 912 (gematric date expressions). 
