@@ -36,4 +36,3 @@ With the data found in fields: 100	(heading personal name) we used [a,9]	and the
 Once all variations of names were enumerated in the identity table, we mapped the names in BHB to the NLI IDs.
 
 
-https://docs.google.com/spreadsheets/d/13l4WzzmImoxJXwljZB_bYuDvMXW3I4G05SUpxs-bfjg/edit?usp=sharing
