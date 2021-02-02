@@ -5,15 +5,15 @@ This repository is meant to serve the community of scholars working on the histo
 
 ## you will find here:
 * The MARC-XML file from the National Library of Israel of the Bibliography of the Hebrew Book database (BHB) converted to TSV  by Yael Netzer.
-* A TSV of the DiJeSt Books file: a cleaned, enriched version of the BHB, in progress
+* A TSV of the DiJeSt-Books file: a cleaned, enriched version of the BHB, work in progress. Please join us in making it better!
 
 ## work that has been done on the BHB data to DiJeSt Books
 ### ontology
 Many of the MARC021 fields were mapped to common ontologies, in order to produce a linked open data knowledge graph. To find out how to access and query it, see here: http://dijest.net/elinda/ .   
 
 ### date cleaning and normalization
-105642 (of 107,977 records) dates (field 260C) were cleaned, normalized and linked in order to enable machine readability.  The information regarding the certainty, accuracy and complexity of dates, implicit in  formulae such as "בערך", "המאה ה-", "לפני", "צנז׳" is yet to be integrated in the DiJeSt file, as well as field 912 (gematric date expressions). 
-### place cleaning and normalization and linking
+105642 (of 107,977 records) dates (field 260C) were cleaned and normalized in order to enable machine readability. The are represented as dcterms:created in the DiJeSt ontology. The information regarding the certainty, accuracy and complexity of dates, implicit in  formulae such as "בערך", "המאה ה-", "לפני", "צנז׳" is yet to be integrated in the DiJeSt file, as well as field 912 (gematric date expressions). 
+### place cleaning, normalization and linking
 Over 106500 places-of-publication were enriched with Kima IDs. The 1080 normalized toponyms were reduced to under 900 place IDs, which are mostly georeferenced.  
 For example: The Judeo-Arabic commentary on JOB, record no. 318464, which had "בודאפעשט" as its place of publication (MARC field 260a) and was normalized as (MARC field 950) "בודפשט|Budapest", and Avodat Hakodesh, record 105675, which had "אפען" as its place of publication and was normalized as "בודפסט|Ofen", were both (along with 712 other records) enriched with the KIMA-id http://geo-kima.org/place/513.
 The normalized placenames are described as MREL:PUP (https://id.loc.gov/vocabulary/relators/pup.html) in the DiJeSt Ontology.
