@@ -6,7 +6,7 @@ This repository is meant to serve the community of scholars working on the histo
 ## you will find here:
 * The MARC-XML file from the National Library of Israel of the Bibliography of the Hebrew Book database (BHB)
 * A TSV conversion by Yael Netzer of from the MARC-XML
-* A TSV of the DiJeSt Books file: an improved, enriched version of the BHB
+* A TSV of the DiJeSt Books file: a cleaned, enriched version of the BHB, in progress
 
 ## work that has been done on the BHB data to DiJeSt Books
 ### ontology
