@@ -22,3 +22,18 @@ A visualization of the mapped BHB which was enabled by this work can be found he
 https://sinair.carto.com/builder/a22bf533-49de-4470-8bae-7d8b1efb286d/embed , see also this post: http://dijest.net/map-bhb/.
 
 ### person normalization and linking
+The origin of the information about the authors is the NLI authority files NNL10, which contains both persons and organizations data.
+The version of the file was given to us by the National LIbrary of Israel from 2015.
+The names in BHB files are not unified, and therefor one can find variations such as 
+In order to unify and locate names such as 	
+	
+- מאהלר, מנחם אליעזר בן יצחק אשר
+- מאלר, מנחם אליעזר בן יצחק אשר
+who both should be mapped to NLI ID 000259084
+
+We  transformed the MARC-XML into a table, mapping the main fields into a table
+With the data found in fields: 100	(heading personal name) we used [a,9]	and the indicator to detect the language, the order the name is documents (e.g., Last-First)	Subfield c	was mapped to nameTitle. More information was collected from fields 378	(Fuller Form of Personal Name), 500	(Personal Name (R))	 and	aliases in Hebrew, Arabic, Latin and Cyrylic alphabets (400,410,430,411,451,700)
+Once all variations of names were enumerated in the identity table, we mapped the names in BHB to the NLI IDs.
+
+
+https://docs.google.com/spreadsheets/d/13l4WzzmImoxJXwljZB_bYuDvMXW3I4G05SUpxs-bfjg/edit?usp=sharing
